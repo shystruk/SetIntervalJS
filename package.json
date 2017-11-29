@@ -1,0 +1,25 @@
+{
+  "name": "SetInterval-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/SetInterval.js",
+  "directories": {
+    "src": "src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shystruk/SetIntervalJS"
+  },
+  "keywords": [
+    "setInterval",
+    "interval",
+    "clearInterval"
+  ],
+  "author": {
+    "name": "Vasyl Stokolosa",
+    "email": "v.stokol@gmail.com",
+    "url": "https://github.com/shystruk"
+  },
+  "license": "MIT",
+  "devDependencies": {}
+}
