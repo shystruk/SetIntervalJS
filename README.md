@@ -10,7 +10,7 @@ SetIntervalJS is a constructor which hide inside reference to setInterval() for 
 `SetInterval.start(function, milliseconds)`
 
 ### Basic example ###
-```
+```javascript
 import SetInterval from 'set-interval'
 
 SetInterval.start(callback, 1000)
@@ -18,7 +18,7 @@ SetInterval.clear()
 ```
 
 ### Multiple instances ###
-```
+```javascript
 import SetInterval from 'set-interval'
 
 const SetInerval_2 = Object.assign({}, SetInterval)
