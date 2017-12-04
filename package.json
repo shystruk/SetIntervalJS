@@ -1,6 +1,6 @@
 {
   "name": "set-interval",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "start and clear interval without setting a variable",
   "main": "./src/SetInterval.js",
   "directories": {
