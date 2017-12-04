@@ -7,7 +7,9 @@ SetIntervalJS is a constructor which hide inside reference to setInterval() for 
 `npm install set-interval` or `yarn add set-interval`
 
 ## Examples ##
-`SetInterval.start(function, milliseconds)`
+```javascript
+SetInterval.start(function, milliseconds)
+```
 
 ### Basic example ###
 ```javascript
