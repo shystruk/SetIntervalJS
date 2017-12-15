@@ -27,7 +27,7 @@
     var define,module,exports;
 
     function SetInterval() {
-        this.start = function (fn, interval) {
+        this.start = function start(fn, interval) {
             if (!this.timer) {
                 this.timer = setInterval(function () {
                     fn();
@@ -35,7 +35,7 @@
             }
         };
 
-        this.clear = function () {
+        this.clear = function clear() {
             clearInterval(this.timer);
             this.timer = void 0;
         }
