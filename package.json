@@ -10,6 +10,11 @@
     "type": "git",
     "url": "https://github.com/shystruk/SetIntervalJS"
   },
+  "scripts": {
+    "report-coverage": "cat ./coverage/lcov.info | codecov",
+    "coverage": "nyc report --reporter=lcov",
+    "test": "nyc ava && npm run coverage"
+  },
   "keywords": [
     "setInterval",
     "interval",
@@ -21,5 +26,9 @@
     "url": "https://github.com/shystruk"
   },
   "license": "MIT",
-  "devDependencies": {}
+  "devDependencies": {
+    "ava": "^0.24.0",
+    "codecov.io": "^0.1.6",
+    "nyc": "^11.3.0"
+  }
 }
