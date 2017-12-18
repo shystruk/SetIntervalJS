@@ -4,7 +4,11 @@
 SetIntervalJS is a constructor which hide inside reference to setInterval() for cleaner usage. It helps to make your code cleaner and there is no need to have more variables for clearInterval() 👌. SetIntervalJS has two methods `start` and `clear`. `start` method calls a function at specified intervals (in milliseconds) and `clear` clear the interval.
 
 ## Getting SetIntervalJS ##
-`npm install set-interval` or `yarn add set-interval`
+#### npm
+`npm install --save set-interval`
+
+#### yarn
+`yarn add set-interval --save`
 
 ## Examples ##
 ```javascript
