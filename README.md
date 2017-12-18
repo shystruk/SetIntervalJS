@@ -27,12 +27,12 @@ SetInterval.clear()
 ```javascript
 import SetInterval from 'set-interval'
 
-const SetInerval_2 = Object.assign({}, SetInterval)
-const SetInerval_3 = Object.assign({}, SetInterval)
+const SetInterval_2 = Object.assign({}, SetInterval)
+const SetInterval_3 = Object.assign({}, SetInterval)
 
 SetInterval.start(callback, 1000)
-SetInerval_2.start(callback_2, 1000)
-SetInerval_3.start(callback_3, 1000)
+SetInterval_2.start(callback_2, 1000)
+SetInterval_3.start(callback_3, 1000)
 
 SetInterval.clear()
 SetInterval_2.clear()
