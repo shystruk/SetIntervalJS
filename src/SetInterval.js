@@ -27,17 +27,29 @@
     var define,module,exports;
 
     function SetInterval() {
-        this.start = function start(fn, interval) {
-            if (!this.timer) {
-                this.timer = setInterval(function () {
+        this.key = {};
+
+        /**
+         * @param {Function} fn 
+         * @param {Number} interval 
+         * @param {String} key 
+         */
+        this.start = function start(fn, interval, key) { 
+            if (!this.key[key]) {
+                this.key[key] = setInterval(function () {
                     fn();
                 }, interval);
             }
-        };
+        }
 
-        this.clear = function clear() {
-            clearInterval(this.timer);
-            this.timer = void 0;
+        /**
+         * @param {String} key 
+         */
+        this.clear = function clear(key) {
+            if (this.key[key]) {
+                clearInterval(this.key[key]);
+                delete this.key[key];
+            }
         }
     }
 
