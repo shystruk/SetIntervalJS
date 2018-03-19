@@ -46,20 +46,20 @@ SetInterval_3.clear('test_3')
 ### SetInterval.start(callback, milliseconds, key_string) ###
 
 #### callback ####
-Type: `function`
+Type: `function` <br>
 Function that gets called in each milliseconds interval
 
-##### milliseconds #####
+#### milliseconds ####
 Type: `number` <br>
 Interval time in which callback function gets called
 
-##### key_string #####
+#### key_string ####
 Type: `string` <br>
 Key name for which interval will be referenced
 
 
 ### SetInterval.clear(key_string) ###
-##### key_string #####
+#### key_string ####
 Type: `string` <br>
 Key name which was passed to .start method
 
