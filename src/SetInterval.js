@@ -1,5 +1,5 @@
 /*
- Copyright (c) 2017 Vasyl Stokolosa https://github.com/shystruk
+ Copyright (c) Vasyl Stokolosa https://github.com/shystruk
  License: MIT - https://opensource.org/licenses/MIT
  https://github.com/shystruk/SetIntervalJS
  */
