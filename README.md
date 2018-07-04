@@ -29,16 +29,16 @@ SetInterval.clear('test')
 import SetInterval from 'set-interval'
 
 SetInterval.start(callback, 1000, 'test')
-SetInterval_2.start(callback_2, 1000, 'test_2')
-SetInterval_3.start(callback_3, 1000, 'test_3')
+SetInterval.start(callback_2, 1000, 'test_2')
+SetInterval.start(callback_3, 1000, 'test_3')
 
 
 // -> ./clear.js
 import SetInterval from 'set-interval'
 
 SetInterval.clear('test')
-SetInterval_2.clear('test_2')
-SetInterval_3.clear('test_3')
+SetInterval.clear('test_2')
+SetInterval.clear('test_3')
 ```
 
 
