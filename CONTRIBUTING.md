@@ -19,8 +19,10 @@ If do not, open a [new one](https://github.com/shystruk/SetIntervalJS/issues/new
 - Fork this repository
 - Clone fork `git clone ...`
 - Navigate to the cloned directory
+- Install all dependencies `npm install`
 - Crate a new branch for the feature `git checkout -b new-feature`
 - Make changes
+- Run tests `npm run test`
 - Commit changes `git commit -am 'What is feature about? :)'`
 - Push to the branch `git push origin new-feature`
 - Submit a PR
